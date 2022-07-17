@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features = {"src/specs/features"},
 		plugin = {"pretty", "html:target/cucumber-html-report"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {("@authentification")}
+		tags = {("@accueil")}
 		)
 
 public class TestRunner {

@@ -56,7 +56,7 @@ public class AuthentificationStepDefinition extends CommonMethods {
 	@Then("^Je verifie le compte admin$")
 	public void jeVerifieLeCompteAdmin() throws Throwable {
 		logger.info("Je verifie le compte admin");
-		String text = AuthentificationPage.msg_welcome.getText();
+		String text = AuthentificationPage.welcome.getText();
 		Assert.assertTrue(text.contains("Welcome"));
 
 	}
